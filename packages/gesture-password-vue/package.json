@@ -1,5 +1,5 @@
 {
-  "name": "@alitajs/gesture-password-vue",
+  "name": "@vladislav_bagnyuk/gesture-password-vue",
   "version": "1.0.9",
   "description": "GesturePassword vue component",
   "author": "Alita Team",
@@ -16,7 +16,7 @@
     "build": "node ../../node_modules/@walrus/pansy/dist/cli.js"
   },
   "dependencies": {
-    "@alitajs/gesture-password": "^1.0.9"
+    "@vladislav_bagnyuk/gesture-password": "^1.0.9"
   },
   "devDependencies": {
     "rollup-plugin-vue": "5.1.1",
