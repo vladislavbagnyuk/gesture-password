@@ -1,6 +1,6 @@
 {
   "name": "@vladislav_bagnyuk/gesture-password-react",
-  "version": "1.0.9",
+  "version": "1.0.10",
   "description": "GesturePassword react component",
   "author": "Alita Team",
   "license": "MIT",
@@ -19,7 +19,7 @@
     "react": "^16.8.5"
   },
   "dependencies": {
-    "@vladislav_bagnyuk/gesture-password": "^1.0.9"
+    "@vladislav_bagnyuk/gesture-password": "^1.0.10"
   },
   "devDependencies": {
     "@types/react": "^16.9.11",
