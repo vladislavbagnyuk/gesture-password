@@ -172,11 +172,13 @@ class GesturePassword {
   updateCanvas(po: Coordinate) {
     this.draw();
     const last = this.selectedCoordinate[this.selectedCoordinate.length - 1];
-    this.context.beginPath();
-    this.context.moveTo(po.x, po.y);
-    this.context.lineTo(last.x, last.y);
-    this.context.closePath();
-    this.context.stroke();
+    if (last) {
+      this.context.beginPath();
+      this.context.moveTo(po.x, po.y);
+      this.context.lineTo(last.x, last.y);
+      this.context.closePath();
+      this.context.stroke();
+    }
     for (let i = 0; i < this.candidateCoordinate.length; i++) {
       if (this.collisionDetection(po, this.candidateCoordinate[i])) {
         this.isActive = true;
